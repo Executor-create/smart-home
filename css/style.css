@@ -43,7 +43,7 @@ body {
   border-radius: 30px;
   background-color: none;
   border: 1px solid white;
-  background-color: #661180;
+  background-color: inherit;
   color: white;
   padding-left: 15px;
   font-size: 16px;
@@ -70,8 +70,10 @@ body {
 
 /*********** Header end ***********/
 
+/*********** Get-started start ***********/
+
 .main {
-  background: linear-gradient(to bottom, #661180, #c30b83);
+  background: linear-gradient(to bottom, #661180, #fd01a5);
 }
 
 .get-started {
@@ -90,7 +92,7 @@ body {
 .get-started__title {
   font-size: 80px;
   color: white;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-family: "Audiowide", sans-serif;
   margin: 0;
 }
@@ -98,7 +100,7 @@ body {
 .get-started__subtitle {
   color: white;
   font-size: 44px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   margin: 0;
 }
 
@@ -111,15 +113,60 @@ body {
   width: 180px;
   height: 35px;
   font-size: 16px;
-  background-color: #661180;
+  background-color: inherit;
   border: 1px solid white;
   border-radius: 30px;
   margin-top: 15px;
   cursor: pointer;
 }
 
+.get-started__button--active:hover {
+}
+
 .get-started__image-container {
 }
 
 .get-started__image {
+}
+
+/*********** Get-started end ***********/
+
+/*********** Get-started start ***********/
+
+.offers-block {
+  height: 980px;
+}
+
+.offers-block__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.offers-block__image-item {
+  width: 450px;
+}
+
+.offers-block__title {
+  font-family: "Audiowide", sans-serif;
+  font-size: 48px;
+  color: white;
+  margin: 0;
+}
+
+.offers-block__subtitle {
+  font-size: 24px;
+  color: white;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.offers-block__text {
+  color: white;
+  margin-top: 35px;
+}
+
+.offers-block__offers-list {
+  display: flex;
+  flex-direction: row;
 }
