@@ -131,7 +131,7 @@ body {
 
 /*********** Get-started end ***********/
 
-/*********** Get-started start ***********/
+/*********** Offers-block start ***********/
 
 .offers-block {
   height: 600px;
@@ -170,3 +170,42 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+/*********** Offers-block end***********/
+
+/*********** Offers-bottom start ***********/
+
+.offers-bottom {
+  height: 350px;
+}
+
+.offers-bottom__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.offers__item {
+  margin: 0px 100px 0px 80px;
+}
+
+.offers__image {
+  width: 120px;
+}
+
+.offers__title {
+  font-size: 26px;
+  color: white;
+}
+
+.offers__text {
+  color: white;
+}
+
+/*********** Offers-bottom end ***********/
