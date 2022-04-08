@@ -73,7 +73,7 @@ body {
 /*********** Get-started start ***********/
 
 .main {
-  background: linear-gradient(to bottom, #661180, #fd01a5);
+  background: linear-gradient(to bottom, #661180, #fd01a5, #661180);
 }
 
 .get-started {
@@ -310,3 +310,107 @@ body {
 }
 
 /*********** Smart-home-block end ***********/
+
+/*********** App-block start ***********/
+
+.app-block {
+  height: 950px;
+}
+
+.app-block__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.app-block__text-container {
+}
+
+.app-block__title {
+  color: white;
+  font-family: "Audiowide", sans-serif;
+  font-size: 60px;
+  margin-left: 20px;
+  letter-spacing: 8px;
+}
+
+.benefits-list__item {
+  margin-top: 30px;
+  color: white;
+}
+
+.app-block__download {
+  text-align: center;
+}
+
+.app-block__service-text {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.app-block__numbers-text {
+  font-size: 46px;
+  font-weight: bold;
+  letter-spacing: 14px;
+  color: white;
+  margin: 0px 0px 0px 10px;
+}
+
+.app-block__download-text {
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.app-block__button {
+  color: white;
+  width: 180px;
+  height: 35px;
+  font-size: 16px;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.app-block__download-app {
+  text-align: center;
+}
+
+.app-block__logo {
+  margin-bottom: 20px;
+}
+
+.app-block__download-title {
+  color: white;
+  font-size: 36px;
+  font-family: "Audiowide", sans-serif;
+  letter-spacing: 5px;
+  margin: 20px 0px 20px 0px;
+}
+
+.app-block__image {
+  margin-top: 30px;
+}
+
+.app-block__download-button {
+  text-align: center;
+}
+
+.app-block__button-item {
+  color: white;
+  width: 180px;
+  height: 35px;
+  font-size: 16px;
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+/*********** App-block end ***********/
