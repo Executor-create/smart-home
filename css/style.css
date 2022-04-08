@@ -121,12 +121,7 @@ body {
 }
 
 .get-started__button--active:hover {
-}
-
-.get-started__image-container {
-}
-
-.get-started__image {
+  box-shadow: 0px 0px 20px 0px #c850db;
 }
 
 /*********** Get-started end ***********/
@@ -266,6 +261,10 @@ body {
   cursor: pointer;
 }
 
+.types-list__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #e643ff;
+}
+
 .types-block__subtitle {
   margin-top: 50px;
   color: white;
@@ -310,6 +309,10 @@ body {
   cursor: pointer;
 }
 
+.smart-home__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #651197;
+}
+
 /*********** Smart-home-block end ***********/
 
 /*********** App-block start ***********/
@@ -322,9 +325,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.app-block__text-container {
 }
 
 .app-block__title {
@@ -377,6 +377,10 @@ body {
   margin-left: 25px;
 }
 
+.app-block__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #e643ff;
+}
+
 .app-block__download-app {
   text-align: center;
 }
@@ -399,6 +403,10 @@ body {
 
 .app-block__download-button {
   text-align: center;
+}
+
+.app-block__button-item--active:hover {
+  box-shadow: 0px 0px 20px 0px #e643ff;
 }
 
 .app-block__button-item {
@@ -522,3 +530,5 @@ body {
   color: white;
   text-decoration: none;
 }
+
+/*********** Footer end ***********/
