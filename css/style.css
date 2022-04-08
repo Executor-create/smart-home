@@ -432,7 +432,7 @@ body {
   font-size: 48px;
   color: white;
   letter-spacing: 5px;
-  margin-left: 30px;
+  margin: 0px 0px 50px 30px;
 }
 
 .about-us__text {
@@ -451,4 +451,74 @@ body {
 .contacts-list__text {
   color: white;
   margin: 20px 0px 0px 50px;
+}
+
+/*********** About-us block end ***********/
+
+/*********** Footer start ***********/
+
+.footer {
+  height: 400px;
+  background-color: #ae2caa;
+  box-shadow: inset 0 0 30px #70207a;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer__title {
+  color: white;
+}
+
+.footer__text {
+  color: white;
+  font-weight: bold;
+}
+
+.home-list {
+  color: white;
+  list-style: none;
+  margin-top: 100px;
+}
+
+.home-list__item {
+  margin-bottom: 20px;
+}
+
+.home-list__link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-list {
+  color: white;
+  list-style: none;
+  margin-top: 100px;
+}
+
+.contact-list__item {
+  margin-bottom: 20px;
+}
+
+.contact-list__link {
+  color: white;
+  text-decoration: none;
+}
+
+.service-list {
+  color: white;
+  list-style: none;
+  margin-top: 100px;
+}
+
+.service-list__item {
+  margin-bottom: 20px;
+}
+
+.service-list__link {
+  color: white;
+  text-decoration: none;
 }
