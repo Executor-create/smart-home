@@ -6,6 +6,9 @@ body {
 
 /*********** Header start ***********/
 
+.container {
+}
+
 .header__container {
   display: flex;
   align-items: center;
@@ -120,6 +123,10 @@ body {
   cursor: pointer;
 }
 
+.get-started__image {
+  max-width: 100%;
+}
+
 .get-started__button--active:hover {
   box-shadow: 0px 0px 20px 0px #c850db;
 }
@@ -176,7 +183,7 @@ body {
 
 .offers-bottom__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .offers__list {
@@ -184,10 +191,11 @@ body {
   align-items: center;
   list-style: none;
   text-align: center;
+  margin-top: 40px;
 }
 
 .offers__item {
-  margin: 50px 100px 0px 60px;
+  padding: 40px;
 }
 
 .offers__image {
