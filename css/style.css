@@ -673,3 +673,71 @@ body {
   }
 }
 
+@media screen and (max-width: 846px) {
+  .get-started {
+    height: 70%;
+  }
+
+  .header__search-input {
+    width: 100%;
+  }
+
+  .menu__list {
+    display: none;
+  }
+
+  .offers-block {
+    display: flex;
+  }
+
+  .smart-home {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .offers-bottom {
+    display: flex;
+  }
+
+  .smart-home__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .smart-home__text {
+    margin: 0;
+  }
+
+  .app-block {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .app-block__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .app-block__download-app {
+    padding: 40px 0px 0px 30px;
+  }
+
+  .about-us {
+  }
+
+  .about-us__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-us__text-container {
+    display: inline-block;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
