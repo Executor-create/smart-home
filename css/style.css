@@ -603,3 +603,73 @@ body {
     padding: 15px;
   }
 }
+
+@media screen and (max-width: 996px) {
+  .header__search-input {
+    width: 70%;
+  }
+
+  .get-started__container {
+    padding: 30px;
+  }
+
+  .get-started__title {
+    font-size: 64px;
+  }
+
+  .header__search-input {
+    margin-right: 20px;
+  }
+
+  .offers-block__image-item {
+    max-width: 100%;
+  }
+
+  .offers__list {
+  }
+
+  .smart-home__image-item {
+    width: 400px;
+  }
+
+  .types-block {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .types-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .smart-home__container {
+  }
+
+  .smart-home__text-container {
+    padding: 20px;
+  }
+
+  .about-us__image {
+    padding: 10px;
+    width: 340px;
+  }
+
+  .about-us__text {
+    word-wrap: break-word;
+  }
+
+  .footer__container {
+    padding: 20px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+  }
+
+  .offers-block__container {
+    width: 95%;
+  }
+}
+
