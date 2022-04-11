@@ -741,3 +741,44 @@ body {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 672px) {
+  .get-started {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .get-started__container {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .get-started__text-container {
+    display: inline-block;
+  }
+
+  .get-started__image {
+    width: 80%;
+  }
+
+  .offers-block {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .offers-block__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .offers-block__image-item {
+    width: 60%;
+  }
+
+  .footer__text-container {
+    padding: 20px;
+  }
+}
