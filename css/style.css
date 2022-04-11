@@ -194,12 +194,18 @@ body {
   margin-top: 40px;
 }
 
+.offers-block__image {
+}
+
 .offers__item {
   padding: 40px;
 }
 
 .offers__image {
   width: 120px;
+}
+
+.offers-block__text-container {
 }
 
 .offers__title {
@@ -293,6 +299,12 @@ body {
   margin-top: 100px;
 }
 
+.smart-home__text-container {
+}
+
+.smart-home__image-item {
+}
+
 .smart-home__title {
   font-family: "Audiowide", sans-serif;
   color: white;
@@ -333,6 +345,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.app-block__text-container {
 }
 
 .app-block__title {
@@ -444,6 +459,12 @@ body {
   justify-content: space-around;
 }
 
+.about-us__image {
+}
+
+.about-us__text-container {
+}
+
 .about-us__title {
   font-size: 48px;
   color: white;
@@ -474,6 +495,7 @@ body {
 /*********** Footer start ***********/
 
 .footer {
+  width: 100%;
   height: 400px;
   background-color: #ae2caa;
   box-shadow: inset 0 0 30px #70207a;
@@ -483,6 +505,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.footer__text-container {
 }
 
 .footer__title {
@@ -540,3 +565,41 @@ body {
 }
 
 /*********** Footer end ***********/
+
+@media screen and (max-width: 1280px) {
+  .header__logo-link {
+    padding: 20px;
+  }
+
+  .media__list {
+    display: none;
+  }
+
+  .media__item {
+    padding: 0;
+  }
+
+  .about-us__image {
+    max-width: 100%;
+  }
+
+  .menu__item {
+    margin: 30px;
+  }
+
+  .types-block__title {
+    margin-top: 80px;
+  }
+
+  .smart-home__image-item {
+    width: 450px;
+  }
+
+  .about-us__image {
+    width: 400px;
+  }
+
+  .footer__container {
+    padding: 15px;
+  }
+}
