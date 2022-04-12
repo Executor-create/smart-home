@@ -865,3 +865,12 @@ body {
   }
 }
 
+@media screen and (max-width: 360px) {
+  .app-block__title {
+    font-size: 38px;
+  }
+
+  .about-us__image {
+    width: 300px;
+  }
+}
