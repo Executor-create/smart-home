@@ -806,11 +806,15 @@ body {
   }
 
   .offers__item {
-    margin-right: 30px;
+    margin-right: 35px;
   }
 
   .offers-block__image-item {
     width: 60%;
+  }
+
+  .smart-home {
+    margin-top: 30px;
   }
 
   .smart-home__title {
@@ -825,8 +829,8 @@ body {
     font-size: 46px;
   }
 
-  .app-block__download {
-    margin-left: 20px;
+  .app-block__download-app {
+    margin-right: 20px;
   }
 
   .app-block__button {
