@@ -850,3 +850,18 @@ body {
   }
 }
 
+@media screen and (max-width: 443px) {
+  .header__search-input {
+    display: none;
+  }
+
+  .types-list__item {
+    margin-right: 35px;
+    transform: scale(0.9);
+  }
+
+  .about-us__text-container {
+    margin-right: 20px;
+  }
+}
+
