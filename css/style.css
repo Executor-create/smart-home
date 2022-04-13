@@ -145,6 +145,9 @@ body {
   justify-content: space-around;
 }
 
+.offers-block__image {
+}
+
 .offers-block__image-item {
   width: 480px;
 }
@@ -161,6 +164,9 @@ body {
   color: white;
   letter-spacing: 3px;
   margin: 0;
+}
+
+.offers-block__text-container {
 }
 
 .offers-block__text {
@@ -194,18 +200,13 @@ body {
   margin-top: 40px;
 }
 
-.offers-block__image {
-}
-
 .offers__item {
   padding: 40px;
 }
 
 .offers__image {
-  width: 120px;
-}
-
-.offers-block__text-container {
+  width: 130px;
+  height: 130px;
 }
 
 .offers__title {
