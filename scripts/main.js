@@ -1,3 +1,5 @@
+// burger menu
+
 let hamburger = document.querySelector(".navbar-mobile__hamburger");
 let navList = document.querySelector(".navbar-mobile__list");
 
@@ -10,3 +12,20 @@ document.querySelectorAll(".navbar-mobile__link").forEach(n => n.addEventListene
     hamburger.classList.remove("navbar-mobile__list--active");
     navList.classList.remove("navbar-mobile__list--active");
 }))
+
+// popup
+
+let popup = document.getElementById("popup");
+let closePopup = document.getElementById("popup--close");
+let buttons = document.querySelectorAll(".types-list__button");
+
+
+buttons.forEach(b => b.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    popup.classList.add("popup--active");
+}))
+
+closePopup.addEventListener("click", () => {
+    popup.classList.remove("popup--active");
+})

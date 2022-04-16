@@ -226,6 +226,7 @@ body {
   list-style: none;
   text-align: center;
   margin-top: 40px;
+  margin-right: 50px;
 }
 
 .offers__item {
@@ -311,6 +312,83 @@ body {
 .types-block__subtitle {
   margin-top: 50px;
   color: white;
+}
+
+.popup {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+.popup--active {
+  display: block;
+}
+
+.popup__container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.popup__content {
+  margin: auto;
+  width: 500px;
+  background: linear-gradient(to bottom, #661180, #a91375);
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+  position: relative;
+}
+
+.popup__title {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-right: 15px;
+}
+
+.popup__input {
+  display: block;
+  width: 270px;
+  padding: 17px 20px;
+  margin: 0 0 25px 90px;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+}
+
+.popup__input--focus:focus {
+  outline: none;
+}
+
+.popup__button {
+  width: 220px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: inherit;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-top: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.popup__button--active:hover {
+  box-shadow: 0px 0px 20px 0px #661180;
+}
+
+.popup--close {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 56px;
+  color: white;
+  cursor: pointer;
 }
 
 /*********** Types-block end ***********/
@@ -718,11 +796,12 @@ body {
     flex-direction: column;
     text-align: center;
     top: 115px;
-    left: -110%;
+    left: -115%;
     background-color: #651197;
     width: 100%;
     height: 100%;
     transition: 0.6s;
+    z-index: 5;
   }
 
   .navbar-mobile__list--active {
@@ -893,10 +972,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
-
-  .offers__item {
-    margin-right: 35px;
   }
 
   .offers-block__image-item {
