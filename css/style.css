@@ -977,6 +977,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-right: 30px;
   }
 
   .offers-block__image-item {
@@ -1032,6 +1033,10 @@ body {
 @media screen and (max-width: 443px) {
   .header__search-input {
     display: none;
+  }
+
+  .offers__list {
+    margin-right: 40px;
   }
 
   .types-block__title {
