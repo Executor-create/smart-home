@@ -197,14 +197,14 @@
                     <div class="popup__container">
                         <div class="popup__content">
                             <h3 class="popup__title">Order type</h3>
-                            <form>
+                            <form method="post">
                                 <input class="popup__input popup__input--focus" type="text" placeholder="Name" required>
                                 <input class="popup__input popup__input--focus" type="text" placeholder="Address"
                                     required>
-                                <input class="popup__input popup__input--focus" type="text" placeholder="Phone number"
+                                <input class="popup__input popup__input--focus" type="number" placeholder="Phone number"
                                     required>
-                                <input class="popup__input popup__input--focus" type="text" placeholder="Email">
-                                <button class="popup__button popup__button--active">Order</button>
+                                <input class="popup__input popup__input--focus" type="email" placeholder="Email">
+                                <button class="popup__button popup__button--active" type="submit">Order</button>
                             </form>
                             <div class="popup--close popup--close--active" id="popup--close">&times;</div>
                         </div>
