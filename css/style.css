@@ -872,7 +872,7 @@ body {
   }
 
   .smart-home__container {
-    display: flex;
+    display: inline-block;
     flex-direction: column-reverse;
   }
 

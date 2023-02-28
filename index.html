@@ -197,14 +197,17 @@
                     <div class="popup__container">
                         <div class="popup__content">
                             <h3 class="popup__title">Order type</h3>
-                            <form method="post">
-                                <input class="popup__input popup__input--focus" type="text" placeholder="Name" required>
-                                <input class="popup__input popup__input--focus" type="text" placeholder="Address"
+                            <form id="popup__form" method="POST">
+                                <input class="popup__input popup__input--focus" id="name" type="text" placeholder="Name"
                                     required>
-                                <input class="popup__input popup__input--focus" type="number" placeholder="Phone number"
-                                    required>
-                                <input class="popup__input popup__input--focus" type="email" placeholder="Email">
-                                <button class="popup__button popup__button--active" type="submit">Order</button>
+                                <input class="popup__input popup__input--focus" id="address" type="text"
+                                    placeholder="Address" required>
+                                <input class="popup__input popup__input--focus" id="phoneNumber" type="number"
+                                    placeholder="Phone number" required>
+                                <input class="popup__input popup__input--focus" id="email" type="email"
+                                    placeholder="Email">
+                                <button class="popup__button popup__button--active" id="create_order"
+                                    type="submit">Order</button>
                             </form>
                             <div class="popup--close popup--close--active" id="popup--close">&times;</div>
                         </div>
@@ -405,6 +408,7 @@
         </div>
     </footer>
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/fetchingOrder.js"></script>
 </body>
 
 </html>
